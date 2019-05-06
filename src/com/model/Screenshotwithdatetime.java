@@ -29,6 +29,7 @@ public class Screenshotwithdatetime extends s1{
 	public static void main(String[] args) throws IOException, InterruptedException {
 		
 		System.out.println("main method");
+		System.out.println("Opening firefox browser");
 		System.setProperty("webdriver.gecko.driver", "D:\\Selenium Setup\\firefox\\geckodriver.exe");
 		 s1.driver = new FirefoxDriver();
 		driver.get("http://www.facebook.com");
